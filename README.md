@@ -1,6 +1,7 @@
 This is solution by JAVA code for below requirement.
 <br>run:
-java robot-simulate
+javac RobotSimulate.java
+java RobotSimulate
 
 REQUIREMENT<br>
 The application is a simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5
