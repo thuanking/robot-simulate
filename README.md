@@ -35,15 +35,15 @@ robot.
 <br>Any move that would cause the robot to fall must be ignored.
 <br>EXAMPLE 1
 <br>Input:
-<br> PLACE 0,0,NORTH
-<br> MOVE
-<br> REPORT
+<br> PLACE 0,0,NORTH
+<br> MOVE
+<br> REPORT
 <br>Example Output:
-<br> 0,1,NORTH
+<br> 0,1,NORTH
 <br>EXAMPLE 2
 <br>Input:
-<br> PLACE 0,0,NORTH
-<br> LEFT
-<br> REPORT
+<br> PLACE 0,0,NORTH
+<br> LEFT
+<br> REPORT
 Output:
-<br> 0,0,WEST
+<br> 0,0,WEST
