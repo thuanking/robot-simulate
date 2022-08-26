@@ -27,3 +27,23 @@ of the robot.
 sufficient.
 <br> A robot that is not on the table can choose to ignore the MOVE, LEFT, RIGHT and REPORT commands.
 <br> Input can be from a file, or from command line input, as the developer chooses. 
+
+<br Provide test data to demonstrate the application in operation. (file input commands.txt)
+<brCONSTRAINTS
+<brThe toy robot must not fall off the table during movement. This also includes the initial placement of the toy
+robot.
+<brAny move that would cause the robot to fall must be ignored.
+<brEXAMPLE 1
+<brInput:
+<br PLACE 0,0,NORTH
+<br MOVE
+<br REPORT
+<brExample Output:
+<br 0,1,NORTH
+<brEXAMPLE 2
+<brInput:
+<br PLACE 0,0,NORTH
+<br LEFT
+<br REPORT
+Output:
+<br 0,0,WEST
